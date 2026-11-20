@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-label="Proyecto de teatro">
+  <rect width="600" height="760" fill="#D7D2C9"/>
+  <circle cx="450" cy="150" r="115" fill="#C9D8F0" opacity=".55"/>
+  <path d="M0 580 Q150 430 300 590 T600 530 V760 H0Z" fill="#C9D8F0" opacity=".6"/>
+  <rect x="52" y="58" width="496" height="644" fill="none" stroke="#5A5A5A" stroke-width="2" opacity=".55"/>
+  <text x="300" y="350" text-anchor="middle" font-family="Georgia,serif" font-size="42" fill="#242321">pareidolia</text>
+  <text x="300" y="402" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="4" fill="#242321">IMAGEN PLACEHOLDER</text>
+</svg>
