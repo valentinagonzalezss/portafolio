@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Valentina González: fotografía y estrategia de contenido para marcas personales y creativas.">
+  <meta name="theme-color" content="#F8F5EC">
+  <title>Valentina González — fotografía & estrategia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- 1. HEADER / NAVEGACIÓN -->
+  <header class="site-header" id="inicio">
+    <a class="site-header__logo" href="#inicio" aria-label="Valentina González, inicio">VG<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="primary-nav" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="primary-nav" aria-label="Navegación principal">
+      <ul class="site-nav__list">
+        <li><a href="#acerca">sobre mí</a></li>
+        <li><a href="#habilidades">habilidades</a></li>
+        <li><a href="#proyectos">proyectos</a></li>
+        <li><a class="button button--small" href="#contacto">trabajemos juntas/os <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero__eyebrow"><span class="eyebrow-dot"></span> fotógrafa · estratega de contenido · guayaquil, ecuador</div>
+      <div class="hero__intro">
+        <h1 id="hero-title">fotografía y estrategia de contenido para marcas personales y creativas</h1>
+        <p>Ideas con intención, imágenes con carácter y contenido que se siente fiel a ti.</p>
+        <a class="button" href="#proyectos">ver proyectos <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="polaroid polaroid--hero">
+        <!-- PLACEHOLDER: reemplaza img/profile-placeholder.svg por tu retrato en img/. -->
+        <img src="img/profile-placeholder.svg" alt="Fotografía de perfil de Valentina González, imagen placeholder">
+        <figcaption>valentina, detrás de la cámara <span>✳</span></figcaption>
+      </figure>
+      <div class="hero__wordmark" aria-label="Valentina González">Valentina González</div>
+      <div class="hero__bottomline"><span>EST. EN ECUADOR</span><span>ESTÉTICA + ESTRATEGIA</span><span>PORTAFOLIO 2026</span></div>
+    </section>
+
+    <!-- 3. ACERCA DE MÍ -->
+    <section class="about section-shell section-pad reveal" id="acerca" aria-labelledby="about-title">
+      <div class="section-kicker">01 / un poco sobre mí</div>
+      <div class="about__grid">
+        <div>
+          <h2 class="section-title" id="about-title">las buenas historias empiezan <em>escuchando.</em></h2>
+          <p class="about__copy">Soy fotógrafa y estratega de contenido ecuatoriana, enamorada del cine. Ayudo a marcas personales y proyectos creativos a comunicar quiénes son con una narrativa auténtica y una estética cuidada.</p>
+          <div class="about__tools">
+            <h3>mi kit de trabajo</h3>
+            <ul class="tag-list">
+              <li>Canon T7</li><li>iPhone 11</li><li>Lenovo IdeaPad 3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__method">
+          <span class="handwritten">mi proceso, sin fórmulas mágicas</span>
+          <h3>una forma de trabajar</h3>
+          <ol class="method-list">
+            <li><span>01</span><p><strong>escuchar y entender</strong><br>Conocer la esencia, los objetivos y la comunidad de la marca.</p></li>
+            <li><span>02</span><p><strong>diseñar la estrategia</strong><br>Convertir ideas en una dirección creativa y un plan claro.</p></li>
+            <li><span>03</span><p><strong>producir y medir</strong><br>Crear, publicar y aprender de los resultados.</p></li>
+          </ol>
+        </div>
+      </div>
+      <div class="stats-grid" aria-label="Experiencia en cifras">
+        <div class="stat"><strong>4<span>+</span></strong><p>cuentas gestionadas</p></div>
+        <div class="stat"><strong>700K<span>+</span></strong><p>vistas mensuales</p></div>
+        <div class="stat"><strong>6</strong><p>marcas acompañadas</p></div>
+      </div>
+    </section>
+
+    <!-- 4. HABILIDADES -->
+    <section class="skills section-pad" id="habilidades" aria-labelledby="skills-title">
+      <div class="section-shell reveal">
+        <div class="section-kicker">02 / herramientas para contar historias</div>
+        <div class="skills__heading">
+          <h2 class="section-title" id="skills-title">la creatividad también <em>se entrena.</em></h2>
+          <p>Una mezcla de criterio visual, planificación y curiosidad constante.</p>
+        </div>
+        <div class="skills__grid">
+          <div class="skill-group">
+            <h3>técnicas <span>✳</span></h3>
+            <div class="skill-list" id="technical-skills"></div>
+          </div>
+          <div class="skill-group">
+            <h3>personales <span>✳</span></h3>
+            <div class="skill-list" id="personal-skills"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROYECTOS -->
+    <section class="projects section-shell section-pad" id="proyectos" aria-labelledby="projects-title">
+      <div class="section-kicker">03 / selección de proyectos</div>
+      <div class="projects__heading reveal">
+        <h2 class="section-title" id="projects-title">trabajo con intención,<br><em>resultados con identidad.</em></h2>
+        <p>Una selección de proyectos donde estrategia, imagen y relato trabajan en conjunto.</p>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filtrar proyectos por categoría">
+        <button class="filter-button is-active" type="button" data-filter="Todos" aria-pressed="true">todos</button>
+        <button class="filter-button" type="button" data-filter="Estrategia" aria-pressed="false">estrategia</button>
+        <button class="filter-button" type="button" data-filter="Fotografía" aria-pressed="false">fotografía</button>
+        <button class="filter-button" type="button" data-filter="Audiovisual" aria-pressed="false">audiovisual</button>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      <div class="archive-card reveal">
+        <div class="archive-card__mark" aria-hidden="true">◎</div>
+        <div><span class="section-kicker">fuera del brief</span><h3>archivo fotográfico personal</h3><p>Fragmentos, luz encontrada y pequeñas historias que guardo por gusto.</p></div>
+        <!-- PLACEHOLDER: sustituye el enlace por tu URL real de VSCO. -->
+        <a class="button button--light" href="https://vsco.co/" target="_blank" rel="noopener noreferrer">ver en VSCO <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- BANDA DE IMPACTO -->
+    <section class="statement-band" aria-label="Enfoque creativo">
+      <div class="statement-band__inner">
+        <p class="statement-band__label">una idea clara cambia todo</p>
+        <h2>socials with a<br><span>creative eye on top.</span></h2>
+        <div class="statement-band__footer"><span>estrategia</span><span>contenido</span><span>fotografía</span><span>✳</span></div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACTO -->
+    <section class="contact section-shell section-pad reveal" id="contacto" aria-labelledby="contact-title">
+      <div class="section-kicker">04 / hagamos algo bonito</div>
+      <div class="contact__grid">
+        <div class="contact__intro">
+          <h2 class="section-title" id="contact-title">¿Lista/o para que tu marca <em>se haga notar?</em></h2>
+          <p>Cuéntame qué tienes en mente. Podemos empezar con una conversación y darle forma a la idea juntas/os.</p>
+          <div class="contact-links">
+            <a href="https://bio.site/valentinagonzalez" target="_blank" rel="noopener noreferrer">bio.site/valentinagonzalez <span aria-hidden="true">↗</span></a>
+            <!-- PLACEHOLDER: reemplaza los enlaces sociales por tus perfiles reales. -->
+            <a href="[URL_INSTAGRAM]" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Valentina González">Instagram <span aria-hidden="true">↗</span></a>
+            <a href="[URL_LINKEDIN]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Valentina González">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="contact__note">respondo con calma, pero con muchas ganas ✳</p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">tu nombre</label>
+            <input id="name" name="name" type="text" autocomplete="name" minlength="3" required aria-describedby="name-error">
+            <small class="form-error" id="name-error"></small>
+          </div>
+          <div class="form-field">
+            <label for="email">tu email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <small class="form-error" id="email-error"></small>
+          </div>
+          <div class="form-field">
+            <label for="subject">¿de qué va tu proyecto?</label>
+            <input id="subject" name="subject" type="text" autocomplete="off" required aria-describedby="subject-error">
+            <small class="form-error" id="subject-error"></small>
+          </div>
+          <div class="form-field">
+            <div class="label-row"><label for="message">cuéntame un poco más</label><span id="message-count">0 / 20 mín.</span></div>
+            <textarea id="message" name="message" rows="4" minlength="20" required aria-describedby="message-error message-count"></textarea>
+            <small class="form-error" id="message-error"></small>
+          </div>
+          <button class="button button--submit" id="submit-button" type="submit" disabled>enviar mensaje <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-disclaimer">Este formulario es una demostración académica y no envía datos a un servidor.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__top section-shell">
+      <div><span class="section-kicker">¿creamos algo juntas/os?</span><p>Las ideas buenas merecen una forma propia.</p></div>
+      <a class="button button--light" href="#contacto">hablemos <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">Valentina González</div>
+    <div class="site-footer__bottom section-shell">
+      <a href="#inicio">VG<span>.</span></a>
+      <p>hecho con intención · <span id="current-year"></span></p>
+      <a href="#inicio">volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modal accesible para detalles de proyectos -->
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <button class="project-modal__close" id="modal-close" type="button" aria-label="Cerrar detalles del proyecto">×</button>
+    <p class="section-kicker" id="modal-category"></p>
+    <h2 id="modal-title"></h2>
+    <p class="project-modal__date" id="modal-date"></p>
+    <p id="modal-description"></p>
+    <ul class="project-modal__tags" id="modal-tags"></ul>
+  </dialog>
+</body>
+</html>
